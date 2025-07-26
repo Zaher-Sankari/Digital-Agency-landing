@@ -8,3 +8,8 @@
 :root{
     --primary-color : #272d38;
 }
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
