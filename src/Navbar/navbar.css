@@ -1,0 +1,18 @@
+.navbar {
+    margin-inline: 182px;
+}
+.navbar-brand{
+    color: var(--primary-color) !important;
+}
+.nav-link{
+    margin-right: 40px;
+    color:var(--primary-color) !important;
+}
+.nav-link:last-child{
+    margin-right: 0;
+}
+ @media screen and (max-width: 992px) {
+    .navbar {
+    margin-inline: 50px;
+}
+ }

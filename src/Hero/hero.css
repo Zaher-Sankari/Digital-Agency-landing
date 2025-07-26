@@ -1,0 +1,17 @@
+.hero {
+    margin-top: 100px;
+    margin-inline:182px !important;
+
+    .hero-info{
+        max-width: 600px;
+        h1{
+            color: var(--primary-color);
+        }
+    }
+    .hero-img{
+        max-width: 450px;
+        img{
+            width: 100%;
+        }
+    }
+}
