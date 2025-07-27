@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Digital-Agency-landing"
+  base: process.env.NODE_ENV === 'production' ? '/Digital-Agency-landing/' : '/',
 })
