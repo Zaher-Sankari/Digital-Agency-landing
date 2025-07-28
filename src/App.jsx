@@ -1,6 +1,7 @@
 import About from "./About/About"
 import Hero from "./Hero/Hero"
 import Navbar from "./Navbar/Navbar"
+import Testimonial from "./Testimonial/Testimonial"
 import Trusted from "./Trusted/Trusted"
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         reverse
         aboutInfo="aboutInfo"
     />
+    <Testimonial></Testimonial>
     </>
   )
 }

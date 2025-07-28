@@ -2,7 +2,7 @@ import './about.css'
 const About = ({ title, desc, img, reverse = false, aboutInfo }) => {
     return (
         <>
-    <section className="container py-5">
+    <section id="about" className="container py-5">
         <div className="row mx-0 align-items-center justify-content-between my-5">
             <div className={`img-container col-md-6 ${reverse ? 'order-md-2' : ''}`}>
                 <img src={img} alt={title} className="img-fluid" />
