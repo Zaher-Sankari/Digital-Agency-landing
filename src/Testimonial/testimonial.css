@@ -15,4 +15,16 @@
         background-color: rgb(235, 235, 235);
         margin-right: 10px;
     }
+} @media screen and (max-width : 768px) {
+    .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards-container{
+        margin-bottom: 50px !important;
+    }
+    .cards-container .card {
+        width: 250px;
+    }
 }

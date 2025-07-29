@@ -32,7 +32,7 @@ function App() {
         title="Be a part of the next big thing"
         desc="We work with Brans, Startups, to SMEs. Colaborate for more impact and growth."
         img="assets/img/customer-support.png"
-        aboutInfo="aboutInfo"
+        contactInfo="contactInfo"
     >
     </Contact>
     <Footer />

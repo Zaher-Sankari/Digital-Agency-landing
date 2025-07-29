@@ -3,3 +3,8 @@
     width: 167px !important;
     line-height: 30px;
 }
+@media screen and (max-width:768px) {
+    .contactInfo{
+        text-align: center;
+    }
+}

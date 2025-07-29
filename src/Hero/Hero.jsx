@@ -2,7 +2,7 @@ import'./hero.css'
 const Hero = () => {
   return (
     <>
-        <div className="hero d-flex flex-grow-1 align-items-center justify-content-center my-0">
+        <div className="hero d-flex flex-grow-1 align-items-center justify-content-center">
             <div className="container">
             <div className="row justify-content-between align-items-center">
                 <div className="col-md-7 text-md-start text-center hero-info">

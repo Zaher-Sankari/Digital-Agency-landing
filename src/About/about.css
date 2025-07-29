@@ -5,3 +5,11 @@
 .img-container{
     max-width: 450px !important;
 }
+@media screen and (max-width:768px) {
+    #about{
+        padding-bottom:16px  !important;
+    }
+    .container .about-wrapper{
+        margin: 0 !important;
+    }
+}
