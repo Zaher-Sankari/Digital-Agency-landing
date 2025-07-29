@@ -5,4 +5,9 @@
         max-width: 915px;
     }
 }
-
+@media screen and (max-width:768px) {
+    .trusted-section{
+        margin-top: 100px !important;
+        margin-bottom: 0 !important;
+    }
+}

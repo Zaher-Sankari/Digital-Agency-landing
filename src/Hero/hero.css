@@ -24,3 +24,20 @@
         color: var(--primary-color);
     }
 }
+@media screen and (max-width:768px){
+    .hero {
+        margin-top: 90px !important;
+        max-height: 450px;
+        padding-bottom: 20px !important;
+            .hero-description{
+                font-size: 16px !important;
+            }
+        .hero-img{
+            max-width: 363px;
+            margin: 0 auto; 
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

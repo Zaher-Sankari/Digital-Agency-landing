@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="container footer-container mx-auto">
         <div className="row text-start text-md-start gy-4">
           {footerData.map((section, index) => (
-            <div key={index} className="col-12 col-md-3">
+            <div key={index} className="col-12 col-md-3 footer-divs">
               <h6 className="fw-bold">{section.title}</h6>
               <ul className="list-unstyled mt-3 mb-0 text-secondary footer-ul">
                 {section.items.map((item, idx) => (

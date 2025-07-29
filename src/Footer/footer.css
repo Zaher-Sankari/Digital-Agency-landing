@@ -1,3 +1,5 @@
-/* .footer-container{
-    margin-inline:184px ;
-} */
+@media screen and (max-width:768px) {
+    footer .footer-divs{
+       text-align: center;
+}
+}
