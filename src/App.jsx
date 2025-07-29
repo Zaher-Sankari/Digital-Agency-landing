@@ -1,4 +1,6 @@
 import About from "./About/About"
+import Contact from "./Contact/Contact"
+import Footer from "./Footer/Footer"
 import Hero from "./Hero/Hero"
 import Navbar from "./Navbar/Navbar"
 import Testimonial from "./Testimonial/Testimonial"
@@ -25,7 +27,15 @@ function App() {
         reverse
         aboutInfo="aboutInfo"
     />
-    <Testimonial></Testimonial>
+    <Testimonial />
+    <Contact
+        title="Be a part of the next big thing"
+        desc="We work with Brans, Startups, to SMEs. Colaborate for more impact and growth."
+        img="assets/img/customer-support.png"
+        aboutInfo="aboutInfo"
+    >
+    </Contact>
+    <Footer />
     </>
   )
 }
